@@ -1,7 +1,7 @@
 // Jason Hardy assignment here
 
 // Get references to the #generate element
-var generatePasswordBtn= document.querySelector("#generate");
+var generatePasswordBtn= document.querySelector("#generatePasswordBtn");
 
 // Add event listener to generate button
 generatePasswordBtn.addEventListener("click", writePassword);
