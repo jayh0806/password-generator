@@ -1,24 +1,10 @@
 // Jason Hardy assignment here
 
-var generatePassword= document.querySelector("#generate");
-
-var passwordLength;
-VAR confirmLower;
-var confirmUpper;
-var confirmNumber;
-var confirmSpecial;
-var userChoices;
-
-var lowerCase = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var upperCase = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
-// there must be an easier way
-
-var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-var special = [!, @, #, $, %, ^, &, *.  (, ), _, -, +, =, <, >, ?, /, ~, ];
-
-
 // Get references to the #generate element
-var generatePassword= document.querySelector("#generate");
+var generatePasswordBtn= document.querySelector("#generate");
+
+// Add event listener to generate button
+generatePasswordBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
@@ -29,15 +15,28 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
-generatePassword.addEventListener("click", writePassword);
-
 //Start Function
 function generatePassword() {
-  passwordLegth = prompt ("Choose password lenght between 8 and 128");
+	
+var passwordLength;
+var confirmLower;
+var confirmUpper;
+var confirmNumber;
+var confirmSpecial;
+var userChoices;
+
+var lowerCase = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var upperCase = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
+// there must be an easier way
+
+var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var special = ["!", "@", "#", "$", "%", "^", "&", "*",".",  "(", ")", "_", "-", "+", "=", "<", ">", "?", "/", "~"];
+	
+	
+  passwordLength = prompt ("Choose password lenght between 8 and 128");
   console.log("Password length" + passwordLength);
 
-  if(!passwwordLength) {
+  if(!passwordLength) {
     alert("Required value");
 
       } else if (passwordLength < 8 || password > 128) {
