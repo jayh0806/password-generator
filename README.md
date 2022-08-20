@@ -15,4 +15,12 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-Ok so project went a little rough but I got some assistence from a friend who has a computer science degree gave me a few tips and helped with cleaning it up
+Ok so project went a little rough but I got some assistence from a friend who has a computer science degree gave me a few tips and helped with cleaning it up. 
+Had to make multiple changes including restarting from scratch with said friend assisting me
+link to deployed application:
+https://jayh0806.github.io/password-generator/
+
+
+
+
+![screenshot](https://user-images.githubusercontent.com/107897337/185768804-3736d273-b15a-48c3-bfeb-e8e9b238e370.jpg)
