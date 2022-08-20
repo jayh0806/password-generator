@@ -23,4 +23,4 @@ https://jayh0806.github.io/password-generator/
 
 
 
-![screenshot](https://user-images.githubusercontent.com/107897337/185768804-3736d273-b15a-48c3-bfeb-e8e9b238e370.jpg)
+
