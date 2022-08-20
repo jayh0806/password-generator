@@ -19,6 +19,7 @@ Ok so project went a little rough but I got some assistence from a friend who ha
 Had to make multiple changes including restarting from scratch with said friend assisting me
 link to deployed application:
 https://jayh0806.github.io/password-generator/
+![screenshot](https://user-images.githubusercontent.com/107897337/185768913-7bf42622-6a03-4565-b430-0f6e8d41e639.jpg)
 
 
 
